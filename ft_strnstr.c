@@ -6,7 +6,7 @@
 /*   By: ynascime <yannssouza@outlook.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/20 15:37:21 by ynascime          #+#    #+#             */
-/*   Updated: 2026/05/28 14:35:33 by ynascime         ###   ########.fr       */
+/*   Updated: 2026/06/01 16:55:06 by ynascime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,9 +37,9 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (0);
 }
-#include <stdio.h>
-int	main(void)
-{
-	printf("%s\n", ft_strnstr("Hello", "ell", 5));
-	return (0);
-}
+//#include <stdio.h>
+//int	main(void)
+//{
+//	printf("%s\n", ft_strnstr("Hello", "ell", 5));
+//	return (0);
+//}
