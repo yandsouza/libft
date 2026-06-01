@@ -6,7 +6,7 @@
 /*   By: ynascime <yannssouza@outlook.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/22 18:10:28 by ynascime          #+#    #+#             */
-/*   Updated: 2026/05/25 15:59:05 by ynascime         ###   ########.fr       */
+/*   Updated: 2026/05/29 11:56:16 by ynascime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,6 +58,6 @@ char	*ft_itoa(int n)
 //#include <stdio.h>
 //int    main(void)
 //{
-//    printf("%s\n", ft_itoa(0));
+//    printf("%s\n", ft_itoa(-26));
 //    return (0);
 //}

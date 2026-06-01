@@ -6,7 +6,7 @@
 /*   By: ynascime <yannssouza@outlook.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/23 17:04:51 by ynascime          #+#    #+#             */
-/*   Updated: 2026/05/23 18:00:05 by ynascime         ###   ########.fr       */
+/*   Updated: 2026/05/28 16:09:44 by ynascime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,11 +23,12 @@ t_list	*ft_lstnew(void *content)
 	lstnew->next = 0;
 	return (lstnew);
 }
-//#include <stdio.h>
-//int main(void)
-//{
-//	char *str = "Hello";
-//	t_list *new = ft_lstnew(str);
-//	printf("%s\n", (char *)new->content);
-//	return (0);
-//}
+#include <stdio.h>
+int main(void)
+{
+	char *str = "Hello";
+	t_list *new = ft_lstnew(str);
+	printf("%s\n", (char *)new->content);
+	return (0);
+}
+

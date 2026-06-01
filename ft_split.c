@@ -6,7 +6,7 @@
 /*   By: ynascime <yannssouza@outlook.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/21 15:54:30 by ynascime          #+#    #+#             */
-/*   Updated: 2026/05/22 15:28:19 by ynascime         ###   ########.fr       */
+/*   Updated: 2026/05/27 10:49:43 by ynascime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -102,11 +102,11 @@ char	**ft_split(char const *s, char c)
 		return (NULL);
 	return (arr);
 }
-/*#include <stdio.h> 
-int	main(void)
-{
-	char **arr = ft_split("Hello, World!", ' ');
-	printf("%s\n", arr[0]);
-	printf("%s\n", arr[1]);
-	return (0);
-}*/
+//#include <stdio.h> 
+//int	main(void)
+//{
+//	char **arr = ft_split("Hello, World!", ' ');
+//	printf("%s\n", arr[0]);
+//	printf("%s\n", arr[1]);
+//	return (0);
+//}

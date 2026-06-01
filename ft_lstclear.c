@@ -6,7 +6,7 @@
 /*   By: ynascime <yannssouza@outlook.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/25 18:19:39 by ynascime          #+#    #+#             */
-/*   Updated: 2026/05/26 18:43:09 by ynascime         ###   ########.fr       */
+/*   Updated: 2026/05/27 11:02:27 by ynascime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ void	ft_lstclear(t_list **lst, void (*del)(void*))
 {
 	t_list	*temp;
 
+	if (!lst || !del)
+		return ;
 	while (*lst)
 	{
 		temp = (*lst)->next;

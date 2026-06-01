@@ -6,7 +6,7 @@
 /*   By: ynascime <yannssouza@outlook.com>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/23 16:27:25 by ynascime          #+#    #+#             */
-/*   Updated: 2026/05/23 16:29:28 by ynascime         ###   ########.fr       */
+/*   Updated: 2026/05/29 11:53:59 by ynascime         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,8 +35,3 @@ void	ft_putnbr_fd(int n, int fd)
 	while (i > 0)
 		write(fd, &str[--i], 1);
 }
-/*int	main(void)
-{
-	ft_putnbr(-2147483648);
-	return (0);
-}*/
