@@ -36,9 +36,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return (sum * sign);
 }
-//#include <stdio.h>
-//int	main(void)
-//{
-//	printf("%i\n", ft_atoi("5"));	
-//	return (0);
-//}
