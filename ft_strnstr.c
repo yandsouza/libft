@@ -14,28 +14,24 @@
 
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
-	size_t	i;
-	size_t	e;
 	size_t	to_find_len;
+	size_t	i;
 
-	if (!len)
-		return (0);
+	if (!little || !big)
+		return (NULL);
 	to_find_len = ft_strlen(little);
 	if (!to_find_len)
 		return ((char *)big);
 	i = 0;
-	e = 0;
-	while (big[i] != '\0' && i < len - 1)
-	{	
-		if (big[i] != little[e] && e > 0)
-			break ;
-		if (big[i] == little[e])
-			e++;
-		if (e == to_find_len && big[i] != little[e])
-			return ((char *)big + (i - e + 1));
+	while (big[i] != '\0' && i < len)
+	{
+		if (i + to_find_len > len)
+			return (NULL);
+		if (ft_strncmp(big + i, little, to_find_len) == 0)
+			return ((char *)big + i);
 		i++;
 	}
-	return (0);
+	return (NULL);
 }
 //#include <stdio.h>
 //int	main(void)
