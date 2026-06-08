@@ -23,4 +23,4 @@ void	ft_putendl_fd(char *s, int fd)
 		i++;
 	}
 	write(fd, "\n", 1);
-}	
+}
